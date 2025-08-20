@@ -1,2 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using DotNetExercise.ConsoleApp;
+using Microsoft.Data.SqlClient;
+
 Console.WriteLine("Hello, World!");
+//SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder();
+//sqlConnectionStringBuilder.DataSource = ".";
+//sqlConnectionStringBuilder.InitialCatalog = "DotNetExercise";
+//sqlConnectionStringBuilder.UserID = "sa";
+//sqlConnectionStringBuilder.Password = "sasa@123";
+//sqlConnectionStringBuilder.TrustServerCertificate = true;
+
+//SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+
+//connection.Open();
+//connection.Close();
+
+AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//adoDotNetExample.Read();
+//adoDotNetExample.Edit();
+//adoDotNetExample.Create();
+//adoDotNetExample.Update();
+adoDotNetExample.Delete();
+
+Console.ReadKey();
