@@ -15,11 +15,18 @@ Console.WriteLine("Hello, World!");
 //connection.Open();
 //connection.Close();
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Read();
-//adoDotNetExample.Edit();
-//adoDotNetExample.Create();
-//adoDotNetExample.Update();
-adoDotNetExample.Delete();
+////adoDotNetExample.Edit();
+////adoDotNetExample.Create();
+////adoDotNetExample.Update();
+//adoDotNetExample.Delete();
+
+DapperExample dapperExample = new DapperExample();
+//dapperExample.Read();
+//dapperExample.Edit();
+//dapperExample.Create();
+//dapperExample.Update();
+dapperExample.Delete();
 
 Console.ReadKey();
