@@ -77,7 +77,7 @@ namespace DotNetExercise.MiniPOSConsoleApp
             };
 
             App3DbContext db = new App3DbContext();
-            db.Add(SaleDetail);
+            db.TblSaleDetails.Add(SaleDetail);
             var result = db.SaveChanges();
             Console.WriteLine(result > 0 ? "Saving Successful!" : "Saving Failed!");
 
