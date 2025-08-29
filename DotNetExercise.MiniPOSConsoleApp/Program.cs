@@ -10,4 +10,9 @@ ProductService productService = new ProductService();
 //productService.Update();
 //productService.Delete();
 
+SaleDetailService saleDetailService = new SaleDetailService();
+//saleDetailService.Read();
+//saleDetailService.Edit();
+//saleDetailService.Create();
+
 Console.ReadKey();
