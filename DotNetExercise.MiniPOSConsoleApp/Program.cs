@@ -15,4 +15,9 @@ SaleDetailService saleDetailService = new SaleDetailService();
 //saleDetailService.Edit();
 //saleDetailService.Create();
 
+SaleSummaryService saleSummaryService = new SaleSummaryService();
+saleSummaryService.Read();
+saleSummaryService.Edit();
+//saleSummaryService.Create();
+
 Console.ReadKey();
