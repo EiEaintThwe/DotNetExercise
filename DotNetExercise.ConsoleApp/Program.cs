@@ -1,5 +1,6 @@
 ﻿
 using DotNetExercise.ConsoleApp;
+using DotNetExercise.Database.App2DbContextModels;
 using Microsoft.Data.SqlClient;
 
 Console.WriteLine("Hello, World!");
@@ -32,8 +33,11 @@ Console.WriteLine("Hello, World!");
 EFCoreExample eFCoreExample = new EFCoreExample();
 //eFCoreExample.Read();
 //eFCoreExample.Edit();
-eFCoreExample.Create();
+//eFCoreExample.Create();
 //eFCoreExample.Update();
 //eFCoreExample.Delete();
+
+App2DbContext db = new App2DbContext();
+db.TblBlogs.ToList();
 
 Console.ReadKey();
